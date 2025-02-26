@@ -1,0 +1,35 @@
+Package: whitrthemes
+Type: Package
+Title: Applies custom themes to plots
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Whitney", "Airgood-Obrycki",
+      email = "whitney.airgood@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Applies custom theme elements like colors, grid lines, titles,
+  axis titles, and notes and sources to ggplot objects using a palette and
+  style that Whit likes.
+Depends: R (>= 3.1.0)
+Imports:
+    ggplot2 (>= 3.3.0),
+    extrafont,
+    ggrepel,
+    grid,
+    gridExtra,
+    lifecycle,
+    scales,
+    conflicted,
+    tibble,
+    purrr,
+    stringr,
+    systemfonts
+Suggests: 
+    knitr,
+    rmarkdown
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
