@@ -24,7 +24,7 @@
   # check that ggplot2 is already loaded
   if (!"ggplot2" %in% (.packages())) {
     packageStartupMessage(
-      "Warning: ggplot2 needs to be loaded before urbnthemes is loaded. Consider restarting your R session."
+      "Warning: ggplot2 needs to be loaded before whitrthemes is loaded. Consider restarting your R session."
     )
   }
 
