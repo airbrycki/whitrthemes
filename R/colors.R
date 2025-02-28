@@ -128,3 +128,19 @@ palette_whit_red <- c(
   "#a4201d",
   "#6e1614",
   "#370b0a")
+
+#' @rdname whit_palettes
+#' @export
+palette_jchs_main <- c(
+  "#43273A",
+  "#508DA6",
+  "#C14D00",
+  "#76AD99",
+  "#E9C002")
+
+palette_jchs_sequential <- c(
+  "#d3e3e9",
+  "#a8c6d3",
+  "#7caabc",
+  "#508da6")
+
