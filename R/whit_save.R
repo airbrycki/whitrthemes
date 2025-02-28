@@ -18,9 +18,9 @@ whit_save <- function(filename,
 
   stopifnot(is.character(filename))
 
-  if (!size %in% c("small", "medium", "large")) {
+  if (!size %in% c("small", "medium", "large", "xlarge")) {
 
-    stop("Error: size must be one of 'small', 'medium', or 'large'")
+    stop("Error: size must be one of 'small', 'medium', 'large', or 'xlarge")
 
   }
 
