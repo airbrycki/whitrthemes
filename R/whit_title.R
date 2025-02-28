@@ -19,7 +19,7 @@ whit_title <- function(string, size = 17.5, width = 75) {
              hjust = 0,
              vjust = 1.3,
              gp = grid::gpar(fontsize = size,
-                       fontfamily = "Sans",
+                       fontfamily = "Arial",
                        lineheight = 1,
                        fontface = "bold"))
   } else {
@@ -29,7 +29,7 @@ whit_title <- function(string, size = 17.5, width = 75) {
              hjust = 0,
              vjust = 1.3,
              gp = grid::gpar(fontsize = size,
-                       fontfamily = "Sans",
+                       fontfamily = "Arial",
                        lineheight = 1,
                        fontface = "bold"))
   }

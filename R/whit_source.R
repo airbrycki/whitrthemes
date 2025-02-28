@@ -47,7 +47,7 @@ whit_source <- function(text, size = 12, width = 120, plural = FALSE) {
     y = unit(1, "npc"),
     hjust = 0,
     vjust = 1.2,
-    gp = grid::gpar(fontsize = size, fontfamily = "Sans", lineheight = 1)
+    gp = grid::gpar(fontsize = size, fontfamily = "Arial", lineheight = 1)
   )
 
 
@@ -59,7 +59,7 @@ whit_source <- function(text, size = 12, width = 120, plural = FALSE) {
       y = unit(1, "npc") - .75 * grid::grobHeight("source1"),
       hjust = 0,
       vjust = 1,
-      gp = grid::gpar(fontsize = size, fontfamily = "Sans", lineheight = 1)
+      gp = grid::gpar(fontsize = size, fontfamily = "Arial", lineheight = 1)
     )
 
     grid::grobTree(grob1, grob2)
