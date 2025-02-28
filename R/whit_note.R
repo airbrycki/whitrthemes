@@ -56,7 +56,7 @@ whit_note <- function(text, size = 12, width = 120, plural = FALSE) {
     grob2 <- grid::textGrob(
       lines,
       x = unit(0.02, "npc"),
-      y = unit(1, "npc") - 0.92 * grid::grobHeight("note1"),
+      y = unit(1, "npc") - 1 * grid::grobHeight("note1"),
       hjust = 0,
       vjust = 1,
       gp = grid::gpar(fontsize = size, fontfamily = "Sans", lineheight = 1)
