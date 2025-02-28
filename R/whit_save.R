@@ -28,13 +28,15 @@ whit_save <- function(filename,
     sizes <- list(
       small = c(width = 3.12, height = 2),
       medium = c(width = 6.25, height = 4),
-      large = c(width = 8.75, height = 6.5)
+      large = c(width = 8.75, height = 6.5),
+      xlarge = c(width = 12.25, height = 6.5)
     )
   } else {
     sizes <- list(
       small = c(width = 3.12, height = height),
       medium = c(width = 6.25, height = height),
-      large = c(width = 8.75, height = height)
+      large = c(width = 8.75, height = height),
+      xlarge = c(width = 12.25, height = height)
     )
   }
 
