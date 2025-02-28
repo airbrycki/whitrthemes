@@ -144,3 +144,9 @@ palette_jchs_sequential <- c(
   "#7caabc",
   "#508da6")
 
+palette_jchsgreen_sequential <- c(
+  "#bbedda",
+  "#a4d7c4",
+  "#8dc2ae",
+  "#76AD99")
+
