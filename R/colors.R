@@ -41,6 +41,16 @@ palette_whit_quintile <- c(
 
 #' @rdname whit_palettes
 #' @export
+palette_whit_moma <- c(
+  "#FF9898FF",
+  "#D9636CFF",
+  "#A91E45FF",
+  "#691238FF",
+  "#251714FF"
+)
+
+#' @rdname whit_palettes
+#' @export
 palette_whit_politics <- c(
   "#1696d2",
   "#db2b27")
