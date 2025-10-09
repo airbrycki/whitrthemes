@@ -15,7 +15,6 @@ Description: Applies custom theme elements like colors, grid lines, titles,
 Depends: R (>= 3.1.0)
 Imports:
     ggplot2 (>= 3.3.0),
-    extrafont,
     ggrepel,
     grid,
     gridExtra,
