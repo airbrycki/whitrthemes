@@ -17,7 +17,8 @@ palette_whit_main <- c(
   color5 = "#a06c9c",
   color6 = "#c5789f",
   color7 = "#e5869d",
-  color8 = "#ff9898")
+  color8 = "#ff9898"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -28,7 +29,8 @@ palette_whit_diverging <- c(
   "#eeeeee",
   "#f7d2d0",
   "#fdb5b4",
-  "#ff9898")
+  "#ff9898"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -37,7 +39,8 @@ palette_whit_quintile <- c(
   "#c5789f",
   "#a06c9c",
   "#535786",
-  "#003f5c")
+  "#003f5c"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -53,7 +56,8 @@ palette_whit_moma <- c(
 #' @export
 palette_whit_politics <- c(
   "#1696d2",
-  "#db2b27")
+  "#db2b27"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -65,7 +69,8 @@ palette_whit_cyan <- c(
   "#739bb6",
   "#8db3ce",
   "#a7cde6",
-  "#c2e7ff")
+  "#c2e7ff"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -77,7 +82,8 @@ palette_whit_gray <- c(
   "#d2d2d2",
   "#9d9d9d",
   "#696969",
-  "#353535")
+  "#353535"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -89,7 +95,8 @@ palette_whit_yellow <- c(
   "#fabe15",
   "#bb8e2d",
   "#7f6127",
-  "#3e3215")
+  "#3e3215"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -101,7 +108,8 @@ palette_whit_magenta <- c(
   "#e90989",
   "#af1f6b",
   "#761548",
-  "#351123")
+  "#351123"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -113,7 +121,8 @@ palette_whit_green <- c(
   "#55b748",
   "#408941",
   "#2c5c2d",
-  "#1a2e19")
+  "#1a2e19"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -125,7 +134,8 @@ palette_whit_spacegray <- c(
   "#332d2f",
   "#262223",
   "#1a1717",
-  "#0e0c0d")
+  "#0e0c0d"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -137,7 +147,8 @@ palette_whit_red <- c(
   "#db2b27",
   "#a4201d",
   "#6e1614",
-  "#370b0a")
+  "#370b0a"
+)
 
 #' @rdname whit_palettes
 #' @export
@@ -146,17 +157,19 @@ palette_jchs_main <- c(
   "#508DA6",
   "#C14D00",
   "#76AD99",
-  "#E9C002")
+  "#E9C002"
+)
 
 palette_jchs_sequential <- c(
   "#d3e3e9",
   "#a8c6d3",
   "#7caabc",
-  "#508da6")
+  "#508da6"
+)
 
 palette_jchsgreen_sequential <- c(
   "#bbedda",
   "#a4d7c4",
   "#8dc2ae",
-  "#76AD99")
-
+  "#76AD99"
+)
