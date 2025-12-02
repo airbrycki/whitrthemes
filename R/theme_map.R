@@ -88,7 +88,7 @@ theme_map <- function(
       plot.caption.position = "plot",
       plot.background = NULL,
 
-      plot.margin = ggplot2::margin(20, 40, 20, 20),
+      plot.margin = ggplot2::margin(20, 60, 20, 20),
 
       # axis attributes
 
@@ -118,7 +118,7 @@ theme_map <- function(
       axis.title.x = ggplot2::element_text(margin = ggplot2::margin(t = 8L)),
       axis.title.y = ggplot2::element_text(
         angle = 90L,
-        margin = ggplot2::margin(r = 4L)
+        margin = ggplot2::margin(r = 6L)
       ),
       axis.title.x.top = NULL,
       axis.title.y.right = NULL,
@@ -159,7 +159,7 @@ theme_map <- function(
       legend.position = "top",
       legend.direction = "horizontal",
       legend.justification = "left",
-      legend.margin = ggplot2::margin(t = 6L, r = 0L, b = 6L, l = 0L, "pt"),
+      legend.margin = ggplot2::margin(t = 6L, r = 6L, b = 6L, l = 0L, "pt"),
 
       legend.box = "horizontal",
       legend.box.margin = NULL,
@@ -194,7 +194,7 @@ theme_map <- function(
       strip.text = ggplot2::element_text(
         face = "bold",
         size = base_size * 9.5 / 8.5,
-        margin = ggplot2::margin(t = 0L, r = 0L, b = 0L, l = 0L)
+        margin = ggplot2::margin(t = 0L, r = 6L, b = 0L, l = 0L)
       ),
 
       strip.text.x = ggplot2::element_text(
