@@ -12,6 +12,7 @@
 #' relative to this value.
 #' @param base_rect_size The base rect size for the theme. All rect sizes are
 #' relative to this value.
+#' @param scale For `theme_map()`. Should the legend theme be continuous or discrete?
 #'
 #' @import extrafont
 #' @import ggrepel
@@ -23,7 +24,8 @@ set_whit_defaults <- function(
   base_size = 8.5,
   base_family = "Sans",
   base_line_size = 0.5,
-  base_rect_size = 0.5
+  base_rect_size = 0.5,
+  scale = "continuous"
 ) {
   # set default theme to theme_*() --------------------------------------
 
@@ -39,7 +41,8 @@ set_whit_defaults <- function(
       base_size = base_size,
       base_family = base_family,
       base_line_size = base_line_size,
-      base_rect_size = base_rect_size
+      base_rect_size = base_rect_size,
+      scale = scale
     ))
   } else {
     stop(
