@@ -7,15 +7,13 @@
 #' @import extrafont
 #' @import ggrepel
 #' @md
-#' @param scale "continuous" creates a vertical legend to the right of the map. "discrete" creates a horizontal legend above the map.
 #' @param base_family,base_size base font family and size
 #' @param base_line_size,base_rect_size base line and rectangle sizes
 #' @export
 
 theme_map <- function(
-  scale = "continuous",
   base_size = 8.5,
-  base_family = "Sans",
+  base_family = "Arial",
   base_line_size = 0.5,
   base_rect_size = 0.5
 ) {
@@ -88,7 +86,7 @@ theme_map <- function(
       plot.caption.position = "plot",
       plot.background = NULL,
 
-      plot.margin = ggplot2::margin(20, 60, 20, 20),
+      plot.margin = ggplot2::margin(20, 60, 20, 60),
 
       # axis attributes
 
