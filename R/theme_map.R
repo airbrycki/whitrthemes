@@ -213,15 +213,6 @@ theme_map <- function(
       # create a complete format
       complete = TRUE
     )
-
-  if (scale == "continuous") {
-    gg <- gg +
-      ggplot2::theme(
-        legend.position = "right",
-        legend.direction = "vertical",
-        legend.title = ggplot2::element_text(size = base_size)
-      )
-  }
   # return gg
   gg
 }
